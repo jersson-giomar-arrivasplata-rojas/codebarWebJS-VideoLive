@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <title>CODEBAR</title>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=0.9">
+
+    <!--text-center -->
+</head>
+
+<body>
+    <h1>Grabar vídeo de la webcam y audio del micrófono con JavaScript</h1>
+    <div>
+        <label for="dispositivosDeAudio">Micrófono:</label><br>
+        <select name="dispositivosDeAudio" id="dispositivosDeAudio"></select>
+        <br><br>
+        <label for="dispositivosDeVideo">Cámara:</label><br>
+        <select name="dispositivosDeVideo" id="dispositivosDeVideo"></select>
+        <br><br>
+        <video muted="muted" id="video"></video>
+        <!--controls autoplay-->
+        <br><br>
+        <p id="duracion"></p>
+        <br>
+        <button id="btnComenzarGrabacion">Comenzar</button>
+        <button id="btnDetenerGrabacion">Detener</button>
+    </div>
+    <diV id="errorMsg"></diV>
+    <!--<script src="script.js"></script>-->
+    <script src="./script-video-02.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <title>CODEBAR</title>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=0.9">
+    <link href="./plugins/flag-icon/flag-icon.min.css" rel="stylesheet">
+    <link href="./plugins/font-awesome/all.css" rel="stylesheet">
+    <link href="./plugins/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link href="./plugins/toastr/toastr.min.css" rel="stylesheet">
+    <style>
+        .css #barcode-scanner canvas.drawingBuffer,
+        #barcode-scanner video.drawingBuffer {
+            display: none;
+        }
+        
+        #barcode-scanner canvas,
+        #barcode-scanner video {
+            width: 350px;
+            height: auto;
+        }
+    </style>
+    <!--text-center -->
+</head>
+
+<body>
+    <div id='barcode-scanner'></div>
+    <div id="add"></div>
+
+    <script src="./plugins/jquery/jquery-v3.4.1.min.js"></script>
+    <script src="./plugins/bootstrap/bootstrap.bundle.min.js"></script>
+
+    <script src='./plugins/tesseract/tesseract.min.js'></script>
+    <script src="./plugins/quagga/quagga.min.js"></script>
+    <script src="./plugins/bootbox/bootbox.min.js"></script>
+    <script src="./plugins/toastr/toastr.min.js"></script>
+
+
+    <!--<script src="sketch.js"></script>-->
+    <script src="./barcodescanner1.js"></script>
+
+</body>
+
+</html>
